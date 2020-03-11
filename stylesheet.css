@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    margin:0 auto;
+    justify-content: space-around;
+    align-items: center;  
+    background-image: url('/Images/background.jpg');  
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h2, h3{
+    text-align: center;
+}
+.rps-header {
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+
+}
+h2{
+    font-size: 5vw;
+    padding: 0;
+    margin: 0;
+    margin: 0 0 0 0;
+
+}
+.container h3{
+    margin: 2vh 0 0 0;
+
+}
+h3{
+    font-size: 3vw;
+    margin: 5vh 0 0 0;
+}
+.rps-game{
+    display: flex;
+    margin-top: -5vh;
+}
+.rps-game img{
+    margin: 0 5vw 0 5vw;
+
+}
+.rps-game img:hover{
+    margin: 0 5vw 0 5vw;
+    box-shadow: 11px 11px 15px 0px rgba(0,0,0,0.75);
+
+}
+.rps-titles{
+    display: flex;
+    margin:0;
+}
